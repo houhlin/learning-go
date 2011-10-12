@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello 世界!")
+	fmt.Println("Hello, world; or Καλημέρα κόσμε; or こんにちは 世界\n")	// 来个中日俄英
 }
