@@ -13,8 +13,8 @@ import (
 
 func WordCount(s string) map[string]int {
 	var m = make(map[string]int)
-	var out []string			// slices
-	out = strings.Fields(s)
+//	var out []string			// slices
+	out := strings.Fields(s)
 	for _, v := range out {
 		if _, ok := m[v]; ok {			//  测试m[v]是否在out[]里, ok为true时
 			m[v]++
